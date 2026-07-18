@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    text-align:center;
+}
+
+header{
+    background:#333;
+    color:white;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+.hero{
+    padding:50px 20px;
+}
+
+.hero h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    margin-bottom:20px;
+}
+
+button{
+    background:#007BFF;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.contact{
+    background:white;
+    margin:30px auto;
+    padding:20px;
+    width:300px;
+    border-radius:8px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+#message{
+    margin-top:10px;
+    color:green;
+    font-weight:bold;
+}
+
+@media (max-width:600px){
+    .hero h1{
+        font-size:28px;
+    }
+
+    .contact{
+        width:90%;
+    }
+}
